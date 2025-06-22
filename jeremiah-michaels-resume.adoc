@@ -1,0 +1,29 @@
+= Jeremiah Michaels
+:hardbreaks:
+415-309-7476
+mrjeremiahmichaels@icloud.com
+
+I seek to further my knowledge of technical writing, and the technologies used to produce technical content.
+
+== Skills
+Markdown, DITA, HTML, CSS, OxygenXML, AsciiDoc, Confluence, Jira, Swagger, Git
+
+== Experience
+* Senior Technical Writer, Magnit Global, December 2019 to Present +
+Created product documentation for a staffing services company’s VMS tool. Created workflow with version control to maintain documentation. Created process for monthly release notes. Implemented Swagger UI for API services. Used machine translation to translate user product documentation.
+
+* Senior Techncial Writer, Moody's, October 2015 - December 2019 +
+Created and maintained product documentation for a financial services company. Migrated large set of documentation to web-based tool. Supported a product team with release notes, documentation updates, API documentation, and quality assurance efforts. Oversaw design and implementation of online help interface in the client facing product. Maintained wiki to facilitate communication and collaboration across a product team.
+
+* Technical Writer, Ensenta Corporation, October 2014 - October 2015 +
+Created internal and external documentation for a financial services software company.  Worked with product management to create product user guides and marketing material. Created release notes and updated product documentation during release cycles. Created and maintained network diagrams for the Network Operations team. Created documentation for the Client Services team. Led effort to centralize document storage.
+
+* Instructional Designer, Calypso Technology, April 2013 - October 2014 +
+Created training materials for a financial services software company. Worked with SMEs to create courses and presentations for training purposes. Worked with management to identify needed materials and gaps. Spearheaded projects to update materials and deliver live and online classroom training. Designed a mobile version of the training materials and tested the delivery systems. Supported trainers through systems management (LMS administration, online training environments and database preparation).
+
+* Technical Writer, Calypso Technology, June 2011 - April 2013 +
+Created product documentation for a financial services software company. Examined user needs to craft clear user guides. Worked with engineering teams to compile release notes for software releases. Maintained product documentation for different versions to reflect changes in user interface and functionality. Maintained working versions of software environments. Collaborated with Quality Assurance teams in order to examine functionality.
+
+== Education
+* MA, Communication and Leadership, Gonzaga University, 2013
+* BA, Techncial and Professional Writing, San Francisco State University, 2009

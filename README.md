@@ -1,4 +1,4 @@
-# Resume
+# Resume Artifacts
 This page defines Jeremiah Michaels's resume artifacts.
 > 'The simplier you say it, the more eloquent it is.' - August Wilson
 ## Links

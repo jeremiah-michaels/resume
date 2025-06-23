@@ -1,7 +1,8 @@
 = Jeremiah Michaels
 :hardbreaks:
-415-309-7476
-mrjeremiahmichaels@icloud.com
+
+:cell: 415-309-7476
+:email: mrjeremiahmichaels@icloud.com
 
 I seek to further my knowledge of technical writing, and the technologies used to produce technical content.
 

@@ -25,5 +25,5 @@ Created training materials for a financial services software company. Worked wit
 Created product documentation for a financial services software company. Examined user needs to craft clear user guides. Worked with engineering teams to compile release notes for software releases. Maintained product documentation for different versions to reflect changes in user interface and functionality. Maintained working versions of software environments. Collaborated with Quality Assurance teams in order to examine functionality.
 
 == Education
-* MA, Communication and Leadership, Gonzaga University, 2013
-* BA, Techncial and Professional Writing, San Francisco State University, 2009
+* MA, Communication and Leadership, Gonzaga University, 2011 - 2013
+* BA, Techncial and Professional Writing, San Francisco State University, 2006 - 2009

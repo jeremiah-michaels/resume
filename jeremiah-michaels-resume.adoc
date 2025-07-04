@@ -1,12 +1,11 @@
 = Jeremiah Michaels
-:hardbreaks:
 415-309-7476
 mrjeremiahmichaels@icloud.com
 
 I seek to further my knowledge of technical writing, and the technologies used to produce technical content.
 
 == Skills
-Markdown, DITA, HTML, CSS, OxygenXML, AsciiDoc, Confluence, Jira, Swagger, Git
+Markdown, DITA, HTML, CSS, Oxygen XML, AsciiDoc, Confluence, Jira, Swagger, Git
 
 == Experience
 * Senior Technical Writer, Magnit Global, December 2019 to Present +

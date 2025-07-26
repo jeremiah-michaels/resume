@@ -16,7 +16,7 @@ Built the entire end-to-end documentation flow for a staffing services company w
 vendor-neutral VMS. Established documentation best practices and integration with the
 Product Management team using Atlassian Jira and Confluence.
 
-.Deliverables include:
+.Deliverables include
 * Customized (HTML/CSS) WebHelp user guides with corporate branding and security
 using Oxygen XML Editor
 * Customized (CSS) PDF user guides with corporate branding using Oxygen XML Editor
@@ -31,8 +31,12 @@ Created and maintained product documentation for a financial services company.
 .Deliverables included
 * User guides (web and PDF) for a quarterly-delivered analytics tool
 * API documentation (web and PDF)
+
+//-
+
 Participated in a project to migrate all XML-formatted documentation to a web-based
 platform (Confluence).
+
 .Project deliverables included
 * Designed and implemented an authentication method for the web portal
 * Designed and implemented a Confluence workflow for creating, reviewing, and

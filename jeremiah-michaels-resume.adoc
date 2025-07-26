@@ -1,28 +1,62 @@
 = Jeremiah Michaels
 
+....
 415-309-7476
 mrjeremiahmichaels@icloud.com
+....
 
-I seek to further my knowledge of technical writing, and the technologies used to produce technical content.
+Building information architecture with DITA. Creating release notes, user guides, and feature documentation.
 
 == Skills
-Markdown, DITA, HTML, CSS, Oxygen XML, AsciiDoc, Confluence, Jira, Swagger, Git
+Markdown, DITA, HTML, CSS, Oxygen XML Editor, AsciiDoc, Confluence, Jira, Swagger, Git
 
 == Experience
-* Senior Technical Writer, Magnit Global, December 2019 to Present +
-Created product documentation for a staffing services company’s VMS tool. Created workflow with version control to maintain documentation. Created process for monthly release notes. Implemented Swagger UI for API services. Used machine translation to translate user product documentation.
+=== Senior Technical Writer, Magnit Global, December 2019 to Present
+Built the entire end-to-end documentation flow for a staffing services company with a
+vendor-neutral VMS. Established documentation best practices and integration with the
+Product Management team using Atlassian Jira and Confluence.
+.Deliverables include
+* Customized (HTML/CSS) WebHelp user guides with corporate branding and security
+using Oxygen XML Editor
+* Customized (CSS) PDF user guides with corporate branding using Oxygen XML Editor
+* Release notes for monthly product releases (MS Word)
+* API Documentation in YAML format (Swagger Editor)
+* Translated the entire documentation set into Spanish using machine translation (DeepL)
 
-* Senior Techncial Writer, Moody's, October 2015 - December 2019 +
-Created and maintained product documentation for a financial services company. Migrated large set of documentation to web-based tool. Supported a product team with release notes, documentation updates, API documentation, and quality assurance efforts. Oversaw design and implementation of online help interface in the client facing product. Maintained wiki to facilitate communication and collaboration across a product team.
 
-* Technical Writer, Ensenta Corporation, October 2014 - October 2015 +
-Created internal and external documentation for a financial services software company.  Worked with product management to create product user guides and marketing material. Created release notes and updated product documentation during release cycles. Created and maintained network diagrams for the Network Operations team. Created documentation for the Client Services team. Led effort to centralize document storage.
+=== Senior Techncial Writer, Moody's, October 2015 - December 2019
+Created and maintained product documentation for a financial services company.
+.Deliverables included
+* User guides (web and PDF) for a quarterly-delivered analytics tool
+* API documentation (web and PDF)
+Participated in a project to migrate all XML-formatted documentation to a web-based
+platform (Confluence).
+.Project deliverables included
+* Designed and implemented an authentication method for the web portal
+* Designed and implemented a Confluence workflow for creating, reviewing, and
+obtaining signatures from stakeholders
 
-* Instructional Designer, Calypso Technology, April 2013 - October 2014 +
-Created training materials for a financial services software company. Worked with SMEs to create courses and presentations for training purposes. Worked with management to identify needed materials and gaps. Spearheaded projects to update materials and deliver live and online classroom training. Designed a mobile version of the training materials and tested the delivery systems. Supported trainers through systems management (LMS administration, online training environments and database preparation).
+=== Technical Writer, Ensenta Corporation, October 2014 - October 2015
+Created internal and external documentation for a financial services software company.
+.Deliverables included
+* Internal knowledge base for configuration and support teams (Oxygen XML Editor)
+* API documentation (PDF)
+* Mobile app configuration guide and release notes (PDF)
+* Network diagrams for the infrastructure team (Visio)
 
-* Technical Writer, Calypso Technology, June 2011 - April 2013 +
-Created product documentation for a financial services software company. Examined user needs to craft clear user guides. Worked with engineering teams to compile release notes for software releases. Maintained product documentation for different versions to reflect changes in user interface and functionality. Maintained working versions of software environments. Collaborated with Quality Assurance teams in order to examine functionality.
+=== Instructional Designer, Calypso Technology, April 2013 - October 2014
+Created training materials for a financial services software company. Worked with SMEs to
+create courses and presentations for training purposes.
+.Deliverables included
+* Training manuals for courses (PDF)
+* Training laptops with course work configured in the database (SQL)
+
+=== Technical Writer, Calypso Technology, June 2011 - April 2013
+Created product documentation for a financial services software company.
+.Deliverables included
+* Application user guides (MadCap Flare)
+* Application release notes (MS Word)
+
 
 == Education
 * MA, Communication and Leadership, Gonzaga University, 2011 - 2013

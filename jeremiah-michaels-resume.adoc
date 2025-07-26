@@ -57,6 +57,13 @@ Created product documentation for a financial services software company.
 * Application user guides (MadCap Flare)
 * Application release notes (MS Word)
 
+=== Contract Technical Writer, Workforce logic; Palo Alto, CA — 2010-2011
+Technical Writer for Facebook's Site Operations team. Maintained a knowledge base for
+engineers and data center technicians.
+.Deliverables included
+* Training materials for data center technicians (how-tos, best practices, informational
+content)
+* Document repository (wiki) for data center technicians and team
 
 == Education
 * MA, Communication and Leadership, Gonzaga University, 2011 - 2013

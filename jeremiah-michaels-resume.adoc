@@ -15,7 +15,8 @@ Markdown, DITA, HTML, CSS, Oxygen XML Editor, AsciiDoc, Confluence, Jira, Swagge
 Built the entire end-to-end documentation flow for a staffing services company with a
 vendor-neutral VMS. Established documentation best practices and integration with the
 Product Management team using Atlassian Jira and Confluence.
-.Deliverables include
+
+.Deliverables include:
 * Customized (HTML/CSS) WebHelp user guides with corporate branding and security
 using Oxygen XML Editor
 * Customized (CSS) PDF user guides with corporate branding using Oxygen XML Editor
@@ -26,6 +27,7 @@ using Oxygen XML Editor
 
 === Senior Techncial Writer, Moody's, October 2015 - December 2019
 Created and maintained product documentation for a financial services company.
+
 .Deliverables included
 * User guides (web and PDF) for a quarterly-delivered analytics tool
 * API documentation (web and PDF)
@@ -38,6 +40,7 @@ obtaining signatures from stakeholders
 
 === Technical Writer, Ensenta Corporation, October 2014 - October 2015
 Created internal and external documentation for a financial services software company.
+
 .Deliverables included
 * Internal knowledge base for configuration and support teams (Oxygen XML Editor)
 * API documentation (PDF)
@@ -47,12 +50,14 @@ Created internal and external documentation for a financial services software co
 === Instructional Designer, Calypso Technology, April 2013 - October 2014
 Created training materials for a financial services software company. Worked with SMEs to
 create courses and presentations for training purposes.
+
 .Deliverables included
 * Training manuals for courses (PDF)
 * Training laptops with course work configured in the database (SQL)
 
 === Technical Writer, Calypso Technology, June 2011 - April 2013
 Created product documentation for a financial services software company.
+
 .Deliverables included
 * Application user guides (MadCap Flare)
 * Application release notes (MS Word)
@@ -60,6 +65,7 @@ Created product documentation for a financial services software company.
 === Contract Technical Writer, Workforce logic; Palo Alto, CA — 2010-2011
 Technical Writer for Facebook's Site Operations team. Maintained a knowledge base for
 engineers and data center technicians.
+
 .Deliverables included
 * Training materials for data center technicians (how-tos, best practices, informational
 content)

@@ -79,9 +79,8 @@ Creates a single record
 
 === Example
 .Single Candidate POST
-[source,json]
-====
-curl --location --request POST 'http://<url>/addCandidate/api3/q1/candidates' \ --header 'Authorization: ApiKey <api_key>' \ --header 'Content-Type: application/json' \ --data-raw
+
+``curl --location --request POST 'http://<url>/addCandidate/api3/q1/candidates' \ --header 'Authorization: ApiKey <api_key>' \ --header 'Content-Type: application/json' \ --data-raw
   '{
 	"candidateSource": "App5",
 	"clientKey": "APP5_CLIENT_KEY_01",
@@ -92,19 +91,17 @@ curl --location --request POST 'http://<url>/addCandidate/api3/q1/candidates' \ 
 	"email": "jphbd@john.com",
 	"supplierName": "DGR Management",
 	"returnSurveyLink": "true"
-  }'
-====
+  }'``
+
 
 .Response
-[source,json]
-====
-{
+
+``{
   "sourceCandidateId": "10001",
   "shortUrl": "https://bit.ly/3xU2isG",
   "statusText": "Candidate#2810102 has been created for the Source Candidate#53467235",
   "status": "Success"
-}
-====
+}``
 
 == Multiple Candidates
 
@@ -175,8 +172,8 @@ Creates multiple candidate records from an array of data.
 |===
 
 .Multiple Candidate PUT
-[source,json]
-====
+
+``
 curl --location --request PUT 'http://<url>/addCandidate/api3/q1/candidates' \ --header 'Authorization: ApiKey <api_key>' \ --header 'Content-Type: application/json' \ --data-raw
   '{
 	"candidateSource": "app2",
@@ -199,12 +196,11 @@ curl --location --request PUT 'http://<url>/addCandidate/api3/q1/candidates' \ -
 	"email": "asgfdje@qteb.com",
 	"supplierName": "People, INC",
 	"returnSurveyLink": "true"
-  }'
-====
+  }'``
 
 .Response
-[source,json]
-====
+
+``
 {
   "sourceCandidateId": "53467235",
   "shortUrl": "https://bit.ly/3xU2isG",
@@ -217,4 +213,4 @@ curl --location --request PUT 'http://<url>/addCandidate/api3/q1/candidates' \ -
   "statusText": "Candidate#2810102 has been created for the Source Candidate#53523738",
   "status": "Success"
 }
-====
+``

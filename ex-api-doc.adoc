@@ -1,5 +1,7 @@
 = Example API
 
+NOTE: This document does not reference any real API endpoints. It is only to demonstrate documentation skills.
+
 The module consumes candidate data using a RESTful API. Two calls are used: one to send candidate data to the module, and one to fetch candidate survey status from the module.
 
 Authentication uses an API key value that is created for a client. The API key is inserted as a header to authenticate each call. To obtain this value for a created client, contact your Program Representative.
@@ -28,19 +30,11 @@ Creates a single record
 |string
 |Yes
 |Single word value, case sensitive
-[example]
-====
-FRC_06_BGT
-====
 
 |countryCode
 |string
 |Yes
 |Two character country code.
-[example]
-====
-US
-====
 
 |candidateSourceId
 |string
@@ -132,19 +126,12 @@ Creates multiple candidate records from an array of data.
 |string
 |Yes
 |Single word value, case sensitive
-[example]
-====
-FRC_06_BGT
-====
 
 |countryCode
 |string
 |Yes
 |Two character country code.
 [example]
-====
-US
-====
 
 |candidateSourceId
 |string

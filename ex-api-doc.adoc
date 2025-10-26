@@ -1,0 +1,233 @@
+= Example API
+
+The module consumes candidate data using a RESTful API. Two calls are used: one to send candidate data to the module, and one to fetch candidate survey status from the module.
+
+Authentication uses an API key value that is created for a client. The API key is inserted as a header to authenticate each call. To obtain this value for a created client, contact your Program Representative.
+
+== Candidates
+
+Sends candidates data to the module, creates a candidate record in the system, and creates a survey. You can send an individual candidate, or an array of candidates. Input is `json` format.
+
+=== Single Candidate
+
+Creates a single record
+
+``POST: /api3/q1/candidates``
+
+.Single Candidate Call
+[cols="1,1,1,1"]
+|===
+|Field|Type|Required|Description
+
+|candidateSource
+|string
+|Yes
+|The source for the candidate.
+
+|clientKey
+|string
+|Yes
+|Single word value, case sensitive
+[example]
+====
+FRC_06_BGT
+====
+
+|countryCode
+|string
+|Yes
+|Two character country code.
+[example]
+====
+US
+====
+
+|candidateSourceId
+|string
+|Yes
+|Alphanumeric value, case sensitive.
+
+|firstName
+|string
+|Yes
+|The candidate's first name.
+
+|lastName
+|string
+|Yes
+|The candidate's last name
+
+|email
+|string
+|Yes
+|The candidate's email address.
+
+|phone
+|string
+|Yes
+|The candidate's telephone number.
+
+|supplierName
+|string
+|Yes
+|The nmae of the supplier providing the candidate to the client.
+
+|altAppSettings
+|boolean
+|No. Default value is `false`.
+|If set to `true`, uses settings from app *Email* and *Survey* page.
+
+|returnSurveyLink
+|boolean
+|No. Default value is `false`.
+|If set to `yes`, returns link to survey before notification is sent to the candidate.
+|===
+
+=== Example
+.Single Candidate POST
+[source,json]
+====
+curl --location --request POST 'http://<url>/addCandidate/api3/q1/candidates' \ --header 'Authorization: ApiKey <api_key>' \ --header 'Content-Type: application/json' \ --data-raw
+  '{
+	"candidateSource": "App5",
+	"clientKey": "APP5_CLIENT_KEY_01",
+	"countryCode": "US",
+	"sourceCandidateId": "53467235",
+	"firstName": "John",
+	"lastName": "Doe",
+	"email": "jphbd@john.com",
+	"supplierName": "DGR Management",
+	"returnSurveyLink": "true"
+  }'
+====
+
+.Response
+[source,json]
+====
+{
+  "sourceCandidateId": "10001",
+  "shortUrl": "https://bit.ly/3xU2isG",
+  "statusText": "Candidate#2810102 has been created for the Source Candidate#53467235",
+  "status": "Success"
+}
+====
+
+== Multiple Candidates
+
+Creates multiple candidate records from an array of data.
+
+``PUT: /api3/q1/candidates``
+
+.Multiple Candidate Call
+[cols="1,1,1,1"]
+|===
+|Field|Type|Required|Description
+
+|candidateSource
+|string
+|Yes
+|The source for the candidate.
+
+|clientKey
+|string
+|Yes
+|Single word value, case sensitive
+[example]
+====
+FRC_06_BGT
+====
+
+|countryCode
+|string
+|Yes
+|Two character country code.
+[example]
+====
+US
+====
+
+|candidateSourceId
+|string
+|Yes
+|Alphanumeric value, case sensitive.
+
+|firstName
+|string
+|Yes
+|The candidate's first name.
+
+|lastName
+|string
+|Yes
+|The candidate's last name
+
+|email
+|string
+|Yes
+|The candidate's email address.
+
+|phone
+|string
+|Yes
+|The candidate's telephone number.
+
+|supplierName
+|string
+|Yes
+|The nmae of the supplier providing the candidate to the client.
+
+|altAppSettings
+|boolean
+|No. Default value is `false`.
+|If set to `true`, uses settings from app *Email* and *Survey* page.
+
+|returnSurveyLink
+|boolean
+|No. Default value is `false`.
+|If set to `yes`, returns link to survey before notification is sent to the candidate.
+|===
+
+.Multiple Candidate PUT
+[source,json]
+====
+curl --location --request PUT 'http://<url>/addCandidate/api3/q1/candidates' \ --header 'Authorization: ApiKey <api_key>' \ --header 'Content-Type: application/json' \ --data-raw
+  '{
+	"candidateSource": "app2",
+	"clientKey": "APP2_CLIENT_KEY_01",
+	"countryCode": "US",
+	"sourceCandidateId": "53467235",
+	"firstName": "John",
+	"lastName": "Doe",
+	"email": "jphbd@john.com",
+	"supplierName": "DGR Management",
+	"returnSurveyLink": "true"
+  }',
+  {
+	"candidateSource": "app2",
+	"clientKey": "APP2_CLIENT_KEY_01",
+	"countryCode": "US",
+	"sourceCandidateId": "53523738",
+	"firstName": "Karla",
+	"lastName": "Kovlova",
+	"email": "asgfdje@qteb.com",
+	"supplierName": "People, INC",
+	"returnSurveyLink": "true"
+  }'
+====
+
+.Response
+[source,json]
+====
+{
+  "sourceCandidateId": "53467235",
+  "shortUrl": "https://bit.ly/3xU2isG",
+  "statusText": "Candidate#2810102 has been created for the Source Candidate#53467235",
+  "status": "Success"
+},
+{
+  "sourceCandidateId": "53523738",
+  "shortUrl": "https://bit.ly/3xU2isG",
+  "statusText": "Candidate#2810102 has been created for the Source Candidate#53523738",
+  "status": "Success"
+}
+====

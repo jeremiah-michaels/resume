@@ -1,177 +1,214 @@
-= Example API
+= Example API Documentation
 
-NOTE: This document does not reference any real API endpoints. It is only to demonstrate documentation skills.
+[NOTE]
+====
+This document does not reference any real API endpoints. It is only to demonstrate documentation skills.
+====
 
+'''
+
+== Authentication
+
+All API requests require authentication using an API key in the Authorization header:
+
+----
 Authorization: Bearer YOUR_API_KEY
+----
 
-== Candidates
+'''
 
-Sends candidates data to the module, creates a candidate record in the system, and creates a survey. You can send an individual candidate, or an array of candidates. Input is `json` format.
+== Candidates Endpoint
 
-=== Single Candidate
+The Candidates endpoint sends candidate data to the system, creates candidate records, and generates surveys. Submit a single candidate or multiple candidates in an array. All requests use JSON format.
 
-Creates a single record
+=== Base URL
 
-``POST: /api3/q1/candidates``
+----
+http://<url>/addCandidate/api3/q1/candidates
+----
 
-.Single Candidate Call
-[cols="1,1,1,1"]
+'''
+
+== Create Single Candidate
+
+Creates a single candidate record in the system.
+
+=== Endpoint
+
+----
+POST /api3/q1/candidates
+----
+
+=== Request Parameters
+
+[cols="1,1,1,3"]
 |===
-|Field|Type|Required|Description
+|Field |Type |Required |Description
 
-|candidateSource
+|`candidateSource`
 |string
 |Yes
-|The source for the candidate.
+|The source for the candidate
 
-|clientKey
+|`clientKey`
 |string
 |Yes
 |Single word value, case sensitive
 
-|countryCode
+|`countryCode`
 |string
 |Yes
-|Two character country code.
+|Two character country code
 
-|candidateSourceId
+|`candidateSourceId`
 |string
 |Yes
-|Alphanumeric value, case sensitive.
+|Alphanumeric value, case sensitive
 
-|firstName
+|`firstName`
 |string
 |Yes
-|The candidate's first name.
+|The candidate's first name
 
-|lastName
+|`lastName`
 |string
 |Yes
 |The candidate's last name
 
-|email
+|`email`
 |string
 |Yes
-|The candidate's email address.
+|The candidate's email address
 
-|phone
+|`phone`
 |string
 |Yes
-|The candidate's telephone number.
+|The candidate's telephone number
 
-|supplierName
+|`supplierName`
 |string
 |Yes
-|The nmae of the supplier providing the candidate to the client.
+|The name of the supplier providing the candidate to the client
 
-|altAppSettings
+|`altAppSettings`
 |boolean
-|No. Default value is `false`.
-|If set to `true`, uses settings from app *Email* and *Survey* page.
+|No
+|Uses settings from app Email and Survey page. Default: `false`
 
-|returnSurveyLink
+|`returnSurveyLink`
 |boolean
-|No. Default value is `false`.
-|If set to `yes`, returns link to survey before notification is sent to the candidate.
+|No
+|Returns link to survey before notification is sent to the candidate. Default: `false`
 |===
 
-=== Example
-.Single Candidate POST
+=== Example Request
 
-``curl --location --request POST 'http://<url>/addCandidate/api3/q1/candidates' \ --header 'Authorization: ApiKey <api_key>' \ --header 'Content-Type: application/json' \ --data-raw
-  '{
-	"candidateSource": "App5",
-	"clientKey": "APP5_CLIENT_KEY_01",
-	"countryCode": "US",
-	"sourceCandidateId": "53467235",
-	"firstName": "John",
-	"lastName": "Doe",
-	"email": "jphbd@john.com",
-	"supplierName": "DGR Management",
-	"returnSurveyLink": "true"
-  }'``
+[source,bash]
+----
+curl --location --request POST 'http://<url>/addCandidate/api3/q1/candidates' \
+  --header 'Authorization: ApiKey <api_key>' \
+  --header 'Content-Type: application/json' \
+  --data-raw '{
+    "candidateSource": "App5",
+    "clientKey": "APP5_CLIENT_KEY_01",
+    "countryCode": "US",
+    "sourceCandidateId": "53467235",
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "jphbd@john.com",
+    "supplierName": "DGR Management",
+    "returnSurveyLink": "true"
+  }'
+----
 
+=== Example Response
 
-.Response
-
-``{
+[source,json]
+----
+{
   "sourceCandidateId": "10001",
   "shortUrl": "https://bit.ly/3xU2isG",
   "statusText": "Candidate#2810102 has been created for the Source Candidate#53467235",
   "status": "Success"
-}``
+}
+----
 
-== Multiple Candidates
+'''
 
-Creates multiple candidate records from an array of data.
+== Create Multiple Candidates
 
-``PUT: /api3/q1/candidates``
+Creates multiple candidate records from an array of candidate data.
 
-.Multiple Candidate Call
-[cols="1,1,1,1"]
+=== Endpoint
+
+----
+PUT /api3/q1/candidates
+----
+
+=== Request Parameters
+
+[cols="1,1,1,3"]
 |===
-|Field|Type|Required|Description
+|Field |Type |Required |Description
 
-|candidateSource
+|`candidateSource`
 |string
 |Yes
-|The source for the candidate.
+|The source for the candidate
 
-|clientKey
+|`clientKey`
 |string
 |Yes
 |Single word value, case sensitive
 
-|countryCode
+|`countryCode`
 |string
 |Yes
-|Two character country code.
-[example]
+|Two character country code
 
-|candidateSourceId
+|`candidateSourceId`
 |string
 |Yes
-|Alphanumeric value, case sensitive.
+|Alphanumeric value, case sensitive
 
-|firstName
+|`firstName`
 |string
 |Yes
-|The candidate's first name.
+|The candidate's first name
 
-|lastName
+|`lastName`
 |string
 |Yes
 |The candidate's last name
 
-|email
+|`email`
 |string
 |Yes
-|The candidate's email address.
+|The candidate's email address
 
-|phone
+|`phone`
 |string
 |Yes
-|The candidate's telephone number.
+|The candidate's telephone number
 
-|supplierName
+|`supplierName`
 |string
 |Yes
-|The nmae of the supplier providing the candidate to the client.
+|The name of the supplier providing the candidate to the client
 
-|altAppSettings
+|`altAppSettings`
 |boolean
-|No. Default value is `false`.
-|If set to `true`, uses settings from app *Email* and *Survey* page.
+|No
+|Uses settings from app Email and Survey page. Default: `false`
 
-|returnSurveyLink
+|`returnSurveyLink`
 |boolean
-|No. Default value is `false`.
-|If set to `yes`, returns link to survey before notification is sent to the candidate.
+|No
+|Returns link to survey before notification is sent to the candidate. Default: `false`
 |===
 
-.Multiple Candidate PUT
+=== Example Request
 
-``
 [source,bash]
 ----
 curl --location --request PUT 'http://<url>/addCandidate/api3/q1/candidates' \
@@ -202,21 +239,23 @@ curl --location --request PUT 'http://<url>/addCandidate/api3/q1/candidates' \
     }
   ]'
 ----
-``
 
-.Response
+=== Example Response
 
-``
-{
-  "sourceCandidateId": "53467235",
-  "shortUrl": "https://bit.ly/3xU2isG",
-  "statusText": "Candidate#2810102 has been created for the Source Candidate#53467235",
-  "status": "Success"
-},
-{
-  "sourceCandidateId": "53523738",
-  "shortUrl": "https://bit.ly/3xU2isG",
-  "statusText": "Candidate#2810102 has been created for the Source Candidate#53523738",
-  "status": "Success"
-}
-``
+[source,json]
+----
+[
+  {
+    "sourceCandidateId": "53467235",
+    "shortUrl": "https://bit.ly/3xU2isG",
+    "statusText": "Candidate#2810102 has been created for the Source Candidate#53467235",
+    "status": "Success"
+  },
+  {
+    "sourceCandidateId": "53523738",
+    "shortUrl": "https://bit.ly/3xU2isG",
+    "statusText": "Candidate#2810102 has been created for the Source Candidate#53523738",
+    "status": "Success"
+  }
+]
+----

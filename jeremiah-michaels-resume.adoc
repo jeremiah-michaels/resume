@@ -1,80 +1,96 @@
 = Jeremiah Michaels
+415-309-7476 | mrjeremiahmichaels@icloud.com | 792 Dartmouth Street, San Francisco, CA 94134
 
-....
-415-309-7476
-mrjeremiahmichaels@icloud.com
-....
+== Profile
 
-Building information architecture with DITA. Creating release notes, user guides, and feature documentation.
-
-== Skills
-Markdown, DITA, HTML, CSS, Oxygen XML Editor, AsciiDoc, Confluence, Jira, Swagger, Git
+Senior technical writer with 15+ years of experience developing both content and delivery systems. Experience with docs-as-code workflows, version control, and DITA architecture. Strategic information architect and administrator who delivers on schedule. User advocate who champions self-service through easy-to-find and understand documentation.
 
 == Experience
-=== Senior Technical Writer, Magnit Global, December 2019 to Present
-Built the entire end-to-end documentation flow for a staffing services company with a
-vendor-neutral VMS. Established documentation best practices and integration with the
-Product Management team using Atlassian Jira and Confluence.
 
-.Deliverables include
-* Customized (HTML/CSS) WebHelp user guides with corporate branding and security
-using Oxygen XML Editor
-* Customized (CSS) PDF user guides with corporate branding using Oxygen XML Editor
-* Release notes for monthly product releases (MS Word)
-* API Documentation in YAML format (Swagger Editor)
-* Translated the entire documentation set into Spanish using machine translation (DeepL)
+=== Senior Technical Writer — Magnit Global, San Francisco, CA | 2019–2026
 
+Built the entire end-to-end documentation flow for a staffing services company with a vendor-neutral VMS. Established documentation best practices and integration with the Product Management team using Atlassian Jira and Confluence. Built docs-as-code workflows to integrate content changes with code review in GitLab.
 
-=== Senior Techncial Writer, Moody's, October 2015 - December 2019
+* Customized (HTML/CSS) WebHelp user guides (4 user types, 300+ topics) with corporate branding and security using Oxygen XML Editor.
+* Customized (CSS) PDF user guides (1,700+ pages of content) with corporate branding using Oxygen XML Editor.
+* Migrated the entire documentation code base to AsciiDoc.
+* Built an end-to-end pipeline to build documents from branch commits and push to Confluence information portal using the confluence-publisher tool.
+* Automated release notes production using native Jira fields and AI.
+* Authored API documentation in YAML format using Swagger Editor.
+* Translated the entire documentation set into Spanish using machine translation via DeepL.
+
+=== Senior Technical Writer — Moody's Analytics, San Francisco, CA | 2015–2019
+
 Created and maintained product documentation for a financial services company.
 
-.Deliverables included
-* User guides (web and PDF) for a quarterly-delivered analytics tool
-* API documentation (web and PDF)
+* Produced a documentation set (user guides, installation guides, analytics guides, release notes) in Confluence and PDF format for a quarterly-delivered analytics tool.
+* Authored API documentation for the analytics tool in Confluence and PDF format.
+* Participated in a project to migrate all XML-formatted documentation to Confluence.
+* Designed and implemented an authentication method (Python) for the product's information portal.
+* Designed and implemented a Scroll Versions workflow for creating and reviewing content.
 
-//-
+=== Technical Writer — Ensenta Corporation, Redwood City, CA | 2014–2015
 
-Participated in a project to migrate all XML-formatted documentation to a web-based
-platform (Confluence).
-
-.Project deliverables included
-* Designed and implemented an authentication method for the web portal
-* Designed and implemented a Confluence workflow for creating, reviewing, and
-obtaining signatures from stakeholders
-
-=== Technical Writer, Ensenta Corporation, October 2014 - October 2015
 Created internal and external documentation for a financial services software company.
 
-.Deliverables included
-* Internal knowledge base for configuration and support teams (Oxygen XML Editor)
-* API documentation (PDF)
-* Mobile app configuration guide and release notes (PDF)
-* Network diagrams for the infrastructure team (Visio)
+* Built an internal knowledge base for configuration and support teams using Oxygen XML Editor.
+* Authored API documentation in PDF format.
+* Produced a mobile app configuration guide and release notes in PDF format.
+* Created network diagrams for the infrastructure team using Visio.
 
-=== Instructional Designer, Calypso Technology, April 2013 - October 2014
-Created training materials for a financial services software company. Worked with SMEs to
-create courses and presentations for training purposes.
+=== Instructional Designer — Calypso Technology, San Francisco, CA | 2013–2014
 
-.Deliverables included
-* Training manuals for courses (PDF)
-* Training laptops with course work configured in the database (SQL)
+Created training materials for a financial services software company. Worked with SMEs to create courses and presentations for training purposes.
 
-=== Technical Writer, Calypso Technology, June 2011 - April 2013
+* Produced a training manual (200+ pages) for courses in PDF format.
+* Configured training laptops with course work using SQL.
+
+=== Associate Technical Writer — Calypso Technology, San Francisco, CA | 2011–2013
+
 Created product documentation for a financial services software company.
 
-.Deliverables included
-* Application user guides (MadCap Flare)
-* Application release notes (MS Word)
+* Authored an application user guide using MadCap Flare.
+* Authored an application installation guide using MadCap Flare.
+* Produced application release notes using MS Word.
 
-=== Contract Technical Writer, Workforce logic; Palo Alto, CA — 2010-2011
-Technical Writer for Facebook's Site Operations team. Maintained a knowledge base for
-engineers and data center technicians.
+=== Contract Associate Technical Writer — Workforce Logic, Palo Alto, CA | 2010–2011
 
-.Deliverables included
-* Training materials for data center technicians (how-tos, best practices, informational
-content)
-* Document repository (wiki) for data center technicians and team
+Contract technical writer for Facebook's Site Operations team. Maintained a knowledge base for engineers and data center technicians.
+
+* Created training materials for data center technicians (how-tos, best practices, informational content).
+* Maintained a document repository (wiki) for data center technicians and the team.
 
 == Education
-* MA, Communication and Leadership, Gonzaga University, 2011 - 2013
-* BA, Techncial and Professional Writing, San Francisco State University, 2006 - 2009
+
+*Master of Arts, Communication and Leadership* +
+Gonzaga University, Spokane, WA | 2013
+
+*Bachelor of Arts, Technical and Professional Writing* (minor in Journalism) +
+San Francisco State University, San Francisco, CA | 2009
+
+== Professional Certifications
+
+* Atlassian Certified in Cloud Organization Administration — issued January 2026
+
+== Skills
+
+=== Tools & Platforms
+
+* API Documentation
+* Atlassian Confluence and Jira
+* Oxygen XML Editor
+* Microsoft Office
+* Swagger Editor
+* Postman
+* Sublime Text and Merge
+* Git / GitLab
+
+=== Languages & Frameworks
+
+* DITA
+* YAML
+* Markdown
+* AsciiDoc
+* HTML
+* CSS
+* XML

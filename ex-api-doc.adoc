@@ -2,9 +2,7 @@
 
 NOTE: This document does not reference any real API endpoints. It is only to demonstrate documentation skills.
 
-The module consumes candidate data using a RESTful API. Two calls are used: one to send candidate data to the module, and one to fetch candidate survey status from the module.
-
-Authentication uses an API key value that is created for a client. The API key is inserted as a header to authenticate each call. To obtain this value for a created client, contact your Program Representative.
+Authorization: Bearer YOUR_API_KEY
 
 == Candidates
 
@@ -174,29 +172,37 @@ Creates multiple candidate records from an array of data.
 .Multiple Candidate PUT
 
 ``
-curl --location --request PUT 'http://<url>/addCandidate/api3/q1/candidates' \ --header 'Authorization: ApiKey <api_key>' \ --header 'Content-Type: application/json' \ --data-raw
-  '{
-	"candidateSource": "app2",
-	"clientKey": "APP2_CLIENT_KEY_01",
-	"countryCode": "US",
-	"sourceCandidateId": "53467235",
-	"firstName": "John",
-	"lastName": "Doe",
-	"email": "jphbd@john.com",
-	"supplierName": "DGR Management",
-	"returnSurveyLink": "true"
-  }',
-  {
-	"candidateSource": "app2",
-	"clientKey": "APP2_CLIENT_KEY_01",
-	"countryCode": "US",
-	"sourceCandidateId": "53523738",
-	"firstName": "Karla",
-	"lastName": "Kovlova",
-	"email": "asgfdje@qteb.com",
-	"supplierName": "People, INC",
-	"returnSurveyLink": "true"
-  }'``
+[source,bash]
+----
+curl --location --request PUT 'http://<url>/addCandidate/api3/q1/candidates' \
+  --header 'Authorization: ApiKey <api_key>' \
+  --header 'Content-Type: application/json' \
+  --data-raw '[
+    {
+      "candidateSource": "app2",
+      "clientKey": "APP2_CLIENT_KEY_01",
+      "countryCode": "US",
+      "sourceCandidateId": "53467235",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "jphbd@john.com",
+      "supplierName": "DGR Management",
+      "returnSurveyLink": "true"
+    },
+    {
+      "candidateSource": "app2",
+      "clientKey": "APP2_CLIENT_KEY_01",
+      "countryCode": "US",
+      "sourceCandidateId": "53523738",
+      "firstName": "Karla",
+      "lastName": "Kovlova",
+      "email": "asgfdje@qteb.com",
+      "supplierName": "People, INC",
+      "returnSurveyLink": "true"
+    }
+  ]'
+----
+``
 
 .Response
 

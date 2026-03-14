@@ -4,3 +4,4 @@ This page defines Jeremiah Michaels's resume artifacts.
 ## Links
 - [Newspaper clips](https://www.jmclipbook.blogspot.com)
 - [LinkedIn Profile](https://www.linkedin.com/in/jeremiah-michaels-9449587)
+- [Test API Documentation](https://jeremiah-michaels.github.io/resume/)

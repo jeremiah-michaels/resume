@@ -1,0 +1,17 @@
+# Local files — never commit these
+files/
+
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db

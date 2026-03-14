@@ -2,7 +2,7 @@
 
 [NOTE]
 ====
-This document does not reference any real API endpoints. It is only to demonstrate documentation skills.
+This document doesn't reference any real API endpoints. It's only to demonstrate documentation skills.
 ====
 
 '''
@@ -98,7 +98,7 @@ POST /api3/q1/candidates
 |`returnSurveyLink`
 |boolean
 |No
-|Returns link to survey before notification is sent to the candidate. Default: `false`
+|Returns link to survey before sending notification to the candidate. Default: `false`
 |===
 
 === Example Request
@@ -204,7 +204,7 @@ PUT /api3/q1/candidates
 |`returnSurveyLink`
 |boolean
 |No
-|Returns link to survey before notification is sent to the candidate. Default: `false`
+|Returns link to survey before sending notification to the candidate. Default: `false`
 |===
 
 === Example Request

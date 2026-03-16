@@ -7,4 +7,4 @@ All professional samples in this repo adhere to Google Developer Style. I use `v
 > 'The simplier you say it, the more eloquent it is.' - August Wilson
 ## Links
 - [LinkedIn Profile](https://www.linkedin.com/in/jeremiah-michaels-9449587)
-- [Test API Documentation](https://jeremiah-michaels.github.io/resume/)
+- [Test API Documentation](https://jeremiah-michaels.github.io/resume/) - Example API written in `python` and `fastapi`.

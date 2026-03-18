@@ -12,4 +12,4 @@ All professional samples in this repo adhere to Google Developer Style. I use `v
 ## Writing Samples
 - [App Integration Guide (with redactions)](./writing-samples/App_Integration_Guide_Redacted.pdf)
 - [Benchmark Portfolio File Spec (with redactions)](./writing-samples/Benchmark_Portfolio_File_Spec_Redacted.pdf)
--[Manager User Guide (with redactions)](./writing-samples/VMS_User_Guide_Redacted.pdf)
+- [Manager User Guide (with redactions)](./writing-samples/VMS_User_Guide_Redacted.pdf)

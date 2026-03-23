@@ -41,4 +41,4 @@ I made sure to add that I wanted the highest level of security since I would be 
 
 ## The Result
 
-[File API](https://jeremiah-michaels.github.io/resume/)
+[File API](https://jeremiah-michaels.github.io/resume/file-api/)

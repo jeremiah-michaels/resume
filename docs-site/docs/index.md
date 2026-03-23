@@ -1,17 +1,48 @@
-# Welcome to MkDocs
+# Jeremiah Michaels | Portfolio
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+## Portfolio Projects
 
-## Commands
+Welcome to my technical portfolio. Below you'll find a collection of projects that demonstrate my skills in API development, documentation, and software engineering.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Featured Projects
 
-## Project layout
+### File API
+A secure REST API built with Python and FastAPI, showcasing API development and documentation best practices.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+**Key Features:**
+- File download functionality with folder-based organization
+- File listing endpoints with directory navigation
+- Enterprise-level security for internet-exposed endpoints
+- Auto-generated OpenAPI specification
+- Interactive Swagger UI documentation
+
+**Technologies:** Python, FastAPI, OpenAPI, Swagger UI
+
+[View Project](https://jeremiah-michaels.github.io/resume/file-api/)
+
+---
+
+## Skills Demonstrated
+
+### API Development
+- RESTful API design and implementation
+- Security best practices for public-facing APIs
+- Request/response validation and error handling
+
+### Documentation
+- OpenAPI/Swagger specification generation
+- Technical writing and API documentation
+- Interactive documentation interfaces
+
+### Development Tools
+- AI-assisted development workflows
+- Local development and testing environments
+- Version control and deployment strategies
+
+---
+
+## About This Portfolio
+
+This portfolio is built with MkDocs and deployed using GitHub Pages. Each project includes detailed documentation, code examples, and deployment information.
+
+**Contact:** [mrjeremiahmichaels@icloud.com] | [LinkedIn](www.linkedin.com/in/jeremiah-michaels-9449587)

@@ -35,7 +35,7 @@ I used `python` and `fastapi` for the framework. I wanted something that was eas
 
 I first prompted `claude desktop` about what my goal was. I asked what would be the easiest to do, and why. I was presented with three options, but the end of the output suggested that I use the `python` \ `fastapi` combo since it accomplished my goals and was the most straightforward.
 
-Then I prompted my ideas for two functions, one to download a `txt` file from a folder, with the folder name as a required input parameter. The second function provides a list of files in a folder, with the folder name as a required parameter. 
+Next, I outlined two core API functions. The first function downloads a `txt` file from a specified folder, requiring the folder name as an input parameter. The second function retrieves a list of all files within a given folder, also requiring the folder name as a parameter.
 
 I made sure to add that I wanted the highest level of security since I would be testing the endpoints on my local when it's connected to the internet.
 

@@ -13,7 +13,6 @@ A secure REST API built with Python and FastAPI, showcasing API development and 
 - File download functionality with folder-based organization
 - File listing endpoints with directory navigation
 - Enterprise-level security for internet-exposed endpoints
-- Auto-generated OpenAPI specification
 - Interactive Swagger UI documentation
 
 **Technologies:** Python, FastAPI, OpenAPI, Swagger UI
@@ -31,12 +30,10 @@ A secure REST API built with Python and FastAPI, showcasing API development and 
 
 ### Documentation
 - OpenAPI/Swagger specification generation
-- Technical writing and API documentation
-- Interactive documentation interfaces
+- Technical writing
 
 ### Development Tools
 - AI-assisted development workflows
-- Local development and testing environments
 - Version control and deployment strategies
 
 ---

@@ -19,5 +19,6 @@ theme:
 nav:
   - Home: index.md
   - About: about.md
+  - Samples: writing-samples.md
   - Projects:
     - File API: projects/file-api.md

@@ -2,7 +2,7 @@
 
 ## Portfolio Projects
 
-Welcome to my technical portfolio. Below you'll find a collection of projects that demonstrate my skills in API development, documentation, and software engineering.
+Welcome to my technical portfolio. Below you'll find a collection of projects that demonstrate my skills in API documentation and AI app workfows.
 
 ## Featured Projects
 

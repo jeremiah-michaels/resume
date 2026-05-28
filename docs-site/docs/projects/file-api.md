@@ -39,6 +39,6 @@ Next, I outlined two core API functions. The first function downloads a `txt` fi
 
 I made sure to add that I wanted the highest level of security since I would be testing the endpoints on my local when it's connected to the internet.
 
-## Result
+## Explore the Docs
 
-[File API](https://jeremiah-michaels.github.io/resume/file-api/)
+The finished documentation is in the [API Docs](../api/overview.md) section, including a full endpoint reference and interactive Swagger UI.

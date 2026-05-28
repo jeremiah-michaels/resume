@@ -16,9 +16,17 @@ theme:
     - search.suggest          # Search suggestions
     - search.highlight        # Highlight search terms
 
+plugins:
+  - search
+  - swagger-ui-tag
+
 nav:
   - Home: index.md
   - About: about.md
+  - API Docs:
+    - Overview: api/overview.md
+    - Endpoints: api/endpoints.md
+    - Interactive Reference: api/reference.md
   - Samples: writing-samples.md
   - Projects:
     - File API: projects/file-api.md

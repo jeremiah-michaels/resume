@@ -23,14 +23,9 @@ A secure REST API built with Python and FastAPI, showcasing API development and 
 
 ## Skills Demonstrated
 
-### API Development
-- RESTful API design and implementation
-- Security best practices for public-facing APIs
-- Request/response validation and error handling
-
-### Documentation
-- OpenAPI/Swagger specification generation
-- Technical writing
+### API Documentation
+- OpenAPI/Swagger 
+- Technical writingx
 
 ### Development Tools
 - AI-assisted development workflows

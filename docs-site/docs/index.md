@@ -17,7 +17,7 @@ A secure REST API built with Python and FastAPI, showcasing API development and 
 
 **Technologies:** Python, FastAPI, OpenAPI, Swagger UI
 
-[View Project](https://jeremiah-michaels.github.io/resume/file-api/)
+[View Project](./projects/file-api.md)
 
 ---
 
@@ -25,7 +25,7 @@ A secure REST API built with Python and FastAPI, showcasing API development and 
 
 ### API Documentation
 - OpenAPI/Swagger 
-- Technical writingx
+- Technical writing
 
 ### Development Tools
 - AI-assisted development workflows

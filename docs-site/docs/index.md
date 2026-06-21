@@ -17,7 +17,7 @@ A secure REST API built with Python and FastAPI, showcasing API development and 
 
 **Technologies:** Python, FastAPI, OpenAPI, Swagger UI
 
-[View Project](./projects/file-api.md)
+[View Project](./projects/file-api.md`)
 
 ---
 
@@ -37,4 +37,4 @@ A secure REST API built with Python and FastAPI, showcasing API development and 
 
 This portfolio is built with MkDocs and deployed using GitHub Pages. Each project includes detailed documentation, code examples, and deployment information.
 
-**Contact:** mrjeremiahmichaels@icloud.com | [LinkedIn](www.linkedin.com/in/jeremiah-michaels-9449587)
+**Contact:** mrjeremiahmichaels@icloud.com | [LinkedIn](https://www.linkedin.com/in/jeremiah-michaels-9449587)

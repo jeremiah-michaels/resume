@@ -17,7 +17,7 @@ A secure REST API built with Python and FastAPI, showcasing API development and 
 
 **Technologies:** Python, FastAPI, OpenAPI, Swagger UI
 
-[View Project](./projects/file-api.md`)
+[View Project](projects/file-api.md)
 
 ---
 

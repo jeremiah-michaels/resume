@@ -41,4 +41,4 @@ I made sure to add that I wanted the highest level of security since I would be 
 
 ## Explore the Docs
 
-The finished documentation is in the [API Docs](../api/overview.md) section, including a full endpoint reference and interactive Swagger UI.
+The finished documentation is in the [API Docs](api/overview.md) section, including a full endpoint reference and interactive Swagger UI.
